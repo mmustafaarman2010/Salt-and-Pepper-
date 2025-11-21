@@ -1,0 +1,1682 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    background-color: black;
+}
+header{
+    width: 100%;
+    height: 20%;
+    padding: 40px;
+    background-color: black;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    position: fixed;
+    z-index: 1;
+    border: 1px solid rgba(128, 128, 128, 0.24);
+
+} 
+.image1 img{
+    width: 150px;
+    margin-left: 70px;
+    position: absolute;
+    top: 40px;
+}
+.image2 img{
+    padding-top: 130px;
+    width: 100%;
+    height: 100%;
+}
+ul{
+    margin-top: 15px;
+    margin-left: 560px;
+}
+li{
+    display: inline;
+    margin-left: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.btn button{
+    background-color: red;
+    color: white;
+    /* padding: 10px; */
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+}
+h1{
+    color: white;
+    padding: 40px;
+    margin-left: 31rem;
+    font-size: 35px;
+    font-family: "railway", sans-serif;
+}
+h1:hover{
+   text-decoration: underline;
+}
+h2{ 
+    font-size: 15px;
+    position: absolute;
+    left: 160px;
+    margin-top: 400px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+h3{
+    position: absolute;
+    left: 350px; 
+    font-size: 15px;
+    margin-top: 400px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+h4{ 
+    position: absolute;
+    left: 550px; 
+     font-size: 15px;
+    margin-top: 400px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+h5{ 
+    position: absolute;
+    left: 800px; 
+     font-size: 15px;
+    margin-top: 400px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+h6{ 
+    position: absolute;
+    left: 1000px; 
+     font-size: 15px;
+    margin-top: 400px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.card img{
+    width: 200px;
+    height: 350px;
+    margin-left: 20px;
+}
+.card{
+    margin-left: 10px; 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container3{
+    padding-top:200px;
+}
+.container3 img{
+    width: 670px;
+}
+.heading3{
+    font-size: 25px;
+    color: red;
+    margin-left: 500px;
+   margin-top: -100px;
+   margin-top: 50px;
+}
+.para1{
+    color: gray;
+}
+.card2{
+    display: flex;
+    height: 440px;
+}
+.container3 .card22 img{
+     width: 670px;
+     height: 440px;
+}
+p{
+    font-size: 20px;
+     color: rgba(255, 255, 255, 0.658);
+     position: absolute;
+     left: 820px;
+}
+.p2{
+    display: block;
+    font-weight: 500;
+    font-style: normal;
+    color: red;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.48em;
+    font-family: "railway" , sans-serif;
+   position: absolute;
+   left: 820px;
+   margin-top: -400px;
+}
+.card22 h1{
+    font-size: 40px;
+    margin-top: -380px;
+}
+.card22 .pqp{
+    width: 180px;
+    height: 47px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border:1px solid white;
+    border-radius: 30px; 
+    position: absolute;
+    left: 800px;
+    margin-top: 180px;
+}
+.container4{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.container4 .card-design{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.container4 .card img{
+    width: 350px;
+    height: 250px;
+    margin-left: 40px;
+}
+.container4 .Superior{
+    margin-left: -570px;
+    color: white;
+    margin-top: 260px;
+    font-size: 20px;
+}
+.container4 .chicken{
+    margin-left: -690px;
+    margin-top: 290px;
+    color: gray;
+    font-size: 15px;   
+}
+.container4 .rs{
+    color: white;
+     margin-left: -590px;
+     margin-top: 340px;
+     font-size: 17px;
+     font-family: "railway", sans-serif;
+}
+.container4 .icon1{
+     display: inline-flex;         
+  align-items: center;
+  justify-content: center;
+  width: 25px;                   
+  height: 23px;
+  background-color: red;          
+  color: white;                   
+  font-weight: bold;
+  font-size: 20px;                
+  border-radius: 3px;             
+  cursor: pointer;
+  user-select: none;
+  margin-top: 380px;
+  position: absolute;
+  left: 270px;
+}
+/* .container4 i{
+    color: white;
+    margin-top: 380px;
+    position: absolute;
+    left: 270px;
+    background-color: red;
+    width: 25px;
+    height: 21px;
+    padding: 3px;
+    border-radius: 5px;
+} */
+.container4 .deluxe{
+     margin-top: 260px;
+     margin-left: -170px;
+     color: white;
+}
+.container4 .fried{
+     margin-top: 290px;
+     font-size: 15px;
+     margin-left: -300px;
+     color: gray;
+}
+.container4 .rs2{
+    color: white;
+    font-family: "railway", sans-serif;
+    margin-top: 340px;  
+    font-size: 17px; 
+    margin-left: -182px;
+}
+.container4 .icon2{
+     display: inline-flex;         
+  align-items: center;
+  justify-content: center;
+  width: 25px;                   
+  height: 23px;
+  background-color: red;          
+  color: white;                   
+  font-weight: bold;
+  font-size: 20px;                
+  border-radius: 3px;             
+  cursor: pointer;
+  user-select: none;
+  margin-top: 380px;
+  position: absolute;
+  left: 680px;
+}
+.container4 .vip{
+    color: white;
+    margin-left: 260px;
+    margin-top: 260px;
+}
+.container4 .Shashlik{ 
+    color: gray;
+    margin-top: 290px;
+    font-size: 15px;
+    margin-left: 110px;
+}
+.container4 .rs3{
+    color: white;
+    font-family: "railway", sans-serif;
+    margin-top: 340px;  
+    font-size: 17px; 
+    margin-left: 230px;
+}
+.container4 .icon3{
+     display: inline-flex;         
+  align-items: center;
+  justify-content: center;
+  width: 25px;                   
+  height: 23px;
+  background-color: red;          
+  color: white;                   
+  font-weight: bold;
+  font-size: 20px;                
+  border-radius: 3px;             
+  cursor: pointer;
+  user-select: none;
+  margin-top: 380px;
+  position: absolute;
+  left: 1090px;
+}
+.container5 .card123 img{
+     width: 350px;
+    height: 250px;
+    margin-left: 50px;
+}
+.container5{
+    margin-left: 60px;
+    margin-top: 220px;
+}
+.container5 .card-design2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.container5 .bbq{
+    margin-left: -600px;
+    margin-top: 10px;
+    color: white;
+}
+.container5 .tikka{
+    color: gray;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-left: -700px;
+}
+.container5 .rs1{
+    color: white;
+    font-family: "railway" , sans-serif;
+    font-size: 17px;
+    margin-top: 80px;
+    margin-left: -590px;
+}
+.container5 .icon1{
+    display: inline-flex;         
+  align-items: center;
+  justify-content: center;
+  width: 25px;                   
+  height: 23px;
+  background-color: red;          
+  color: white;                   
+  font-weight: bold;
+  font-size: 20px;                
+  border-radius: 3px;             
+  cursor: pointer;
+  user-select: none;
+  margin-top: 380px;
+  position: absolute;
+  left: 270px 
+}
+.container5 .pakistani{
+    margin-top: 10px;
+    color: white;
+    margin-left: -185px;
+}
+.container5 .handi{
+    color: gray;
+    font-size: 15px;
+    margin-left: -280px;
+    margin-top: 40px;
+}
+.container5 .rs2{
+    color: white;
+    font-family: "railway" , sans-serif;
+    margin-top: 80px;
+    font-size: 17px;
+    margin-left: -160px;
+}
+.container5 .icon2{
+     display: inline-flex;         
+  align-items: center;
+  justify-content: center;
+  width: 25px;                   
+  height: 23px;
+  background-color: red;          
+  color: white;                   
+  font-weight: bold;
+  font-size: 20px;                
+  border-radius: 3px;             
+  cursor: pointer;
+  user-select: none;
+  margin-top: 380px;
+  position: absolute;
+  left: 690px;
+}
+.container5 .viP{
+    color: white;
+    margin-top: 10px;
+    margin-left: 260px;
+}
+.container5 .boti{
+    color: gray;
+    font-size: 15px;
+    margin-top: 40px;   
+    margin-left: 140px;
+}
+.container5 .rs3{
+    color: white;
+    font-size: 17px;
+    font-family: "railway" , sans-serif;
+    margin-top: 80px;
+    margin-left: 270px;
+}
+.container5 .icon3{
+     display: inline-flex;         
+  align-items: center;
+  justify-content: center;
+  width: 25px;                   
+  height: 23px;
+  background-color: red;          
+  color: white;                   
+  font-weight: bold;
+  font-size: 20px;                
+  border-radius: 3px;             
+  cursor: pointer;
+  user-select: none;
+  margin-top: 380px;
+  position: absolute;
+  left: 1129px;
+}
+.container6 img{
+    margin-top: 290px;
+    width: 100%;
+    height: 700px;
+}
+.container6 .menu{
+    color: red;
+    font-family: "railway" , sans-serif;
+    margin-top: -610px;
+    margin-left: -700px;
+}
+.container6 .somethink{
+    color: white;
+    font-size: 45px;
+    margin-top: -570px;
+    margin-left: -700px;
+}
+.container6 .chilli{
+    color: gray;
+    font-size: 17px;
+    margin-top: -380px;
+    margin-left: -700px;
+}
+.container6 .chinese{
+    color: white;
+    margin-left: -700px;
+    margin-top: -290px;
+    font-family: "railway" , sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+}
+.container6 .rs1{
+    color: white;
+    font-family: "railway" , sans-serif;
+    margin-left: -700px;
+    font-size: 18px;
+    margin-top: -240px;
+    font-weight: 800;
+    font-style: normal;
+    z-index: -1px;
+} 
+.container6 .online{
+     width: 180px;
+    height: 47px;
+    margin-left: 130px;
+    position: absolute;
+    top: 3450px;
+    border: none;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+}
+.online i{
+    margin-left: 5px;
+    padding: 10px;
+    color: white;
+}
+.container6 .image1515{
+    width: 700px;  
+    margin-left: 650px; 
+    margin-top: -980px;
+}
+.container7{
+    margin-top: 50px;
+}
+.image-free img{
+    margin-left: 110px;
+    width: 150px;
+}
+.container7{
+    background-color: rgba(128, 128, 128, 0.13);
+    width: 100%;
+    height: 610px;
+}
+.container7 img{
+    margin-top: 70px;
+}
+.container7 p{
+    margin-top: 50px;
+    margin-left: -710px;
+    font-size: 17px;
+    font-family: "railway" , sans-serif;
+}
+.image-type img{
+    width: 350px;
+    margin-left: 25px;
+}
+.container7 .terms{
+    color: gray;
+    margin-top: 215px;
+} 
+.container7 .site{
+    color: white;
+    margin-left: -220px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    font-style: normal;
+    font-family: 'butler';
+    margin-top: -50px;
+}
+.container7 .home{
+    color: gray;
+    margin-left: -220px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    font-style: normal;
+    font-family: "railway" , sans-serif;
+    margin-top: 5px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7)  !important
+}
+.container7 .aboutus{
+    color: gray;
+    margin-left: -220px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    font-style: normal;
+    font-family: "railway" , sans-serif;
+    margin-top: 40px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7)  !important
+}
+.container7 .deals{
+    color: gray;
+    margin-left: -220px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    font-style: normal;
+    font-family: "railway" , sans-serif;
+    margin-top: 85px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7)  !important
+}
+.container7 .photos{
+    color: gray;
+    margin-left: -220px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    font-style: normal;
+    font-family: "railway" , sans-serif;
+    margin-top: 130px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7)  !important
+}
+.container7 .publications{
+    color: gray;
+    margin-left: -220px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    font-style: normal;
+    font-family: "railway" , sans-serif;
+    margin-top: 175px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7)  !important
+}
+.container7 .get{
+    color: gray;
+    margin-left: -220px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    font-style: normal;
+    font-family: "railway" , sans-serif;
+    margin-top: 220px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7)  !important
+}
+.container7 .feedback{
+    color: gray;
+    margin-left: -220px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    font-style: normal;
+    font-family: "railway" , sans-serif;
+    margin-top: 265px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7)  !important
+}
+.container7 .contactus{
+    color: gray;
+    margin-left: -220px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    font-style: normal;
+    font-family: "railway" , sans-serif;
+    margin-top: 310px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7)  !important
+}
+.container7 .contactus2{
+    color: white;
+    margin-left: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    font-style: normal;
+    font-family: 'butler';
+    margin-top: -50px;
+}
+.container7 .head{
+    margin-left: 50px;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: -5px;
+}
+.container7 .food{
+    color: gray;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    font-style: normal;
+    font-family: "railway" , sans-serif;
+    margin-top: 30px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7)  !important
+}
+.container7 .usman{
+    color: gray;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    font-style: normal;
+    font-family: "railway" , sans-serif;
+    margin-top: 75px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7)  !important
+}
+.container7 .number{
+    margin-left: 50px;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 150px;
+}
+.container7 .qwe{
+    color: gray;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    font-style: normal;
+    font-family: "railway" , sans-serif;
+    margin-top: 185px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7)  !important
+}
+.container7 .qwer{
+    color: gray;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    font-style: normal;
+    font-family: "railway" , sans-serif;
+    margin-top: 220px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7)  !important
+}
+.container7 .email{
+    margin-left: 50px;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 260px;
+}
+.container7 .snpfood{
+    color: gray;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    font-style: normal;
+    font-family: "railway" , sans-serif;
+    margin-top: 290px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7)  !important
+}
+.container7 .freenumber{
+    margin-left: 50px;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 330px;
+}
+.container7 .qwert{
+    color: gray;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    font-style: normal;
+    font-family: "railway" , sans-serif;
+    margin-top: 360px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7)  !important
+}
+.container7 .qwerty{
+    color: gray;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    font-style: normal;
+    font-family: "railway" , sans-serif;
+    margin-top: 400px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7)  !important
+}
+.container7 .rs2025{
+    margin-left: -700px;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 480px;
+    padding-bottom: 20px;
+}
+.container7 .power{
+    margin-left: 200px;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 480px;
+    padding-bottom: 10px;
+}
+.container7 .face i{
+    color: white;
+    font-size: 25px;
+    margin-left: 1100px;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    padding-top: 8px;
+    border-radius: 20px;
+}
+.container7 .insta i{
+    color: white;
+    font-size: 25px;
+    margin-left: 1150px;
+    position: absolute;
+    top: 3823px;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    padding-top: 8px;
+    border-radius: 20px;
+}
+.container7 .twitter i{
+    color: white;
+    font-size: 25px;
+    margin-left: 1270px;
+    position: absolute;
+    top: 3823px;
+    left: -70px;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    padding-top: 8px;
+    border-radius: 20px;
+}
+.container8 .introduction{
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 580px;
+    font-size: 40px;
+    /* font-family: "railway" , sans-serif; */
+    font-family: 'Butler';
+    font-weight: 550;
+    font-style: normal;
+    line-height: 16px;
+}
+/* .container8 .chain{
+    color: gray;
+    font-family: 'Butler';
+    position: absolute;
+    top: 270px;
+    left: 80px;
+} */
+.container8 .chain{
+    font-family: "railway" , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 270px;
+    left: 110px;
+} 
+.container8 .have{
+    font-family: "railway" , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 330px;
+    left: 110px;
+} 
+.container8 .lahore{
+    font-family: "railway" , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 410px;
+    left: 110px;
+} 
+.container8 .developing{
+    font-family: "railway" , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 470px;
+    left: 110px;
+} 
+.container8 .restaurent{
+    position: absolute;
+    top: 630px;
+    left: 610px;
+    color: white;
+    font-size: 30px;
+    font-style: normal;
+    font-family: "railway" , sans-serif;
+}
+.container8 .follow{
+    font-family: "railway" , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 690px;
+    left: 110px;
+}
+.container9 .of{
+    position: absolute;
+    top: 790px;
+    left: 100px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Algerian';
+    font-style: normal;
+    line-height: 29px;
+}
+.container9 .to{
+    font-family: "railway" , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 850px;
+    left: 100px;
+}
+.container9 .image121 img{
+    margin-top: 790px;
+    margin-left: 650px;
+    width: 500px;
+    border-radius: 5px;
+    height: 300px;
+}
+.container9 .four{
+    position: absolute;
+    top: 1200px;
+    left: 750px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Algerian';
+    font-style: normal;
+    line-height: 29px;
+}
+.container9 .nine{
+    font-family: "railway" , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 1260px;
+    left: 750px;
+}
+.container9 .image232 img{
+    width: 630px;
+    margin-right: 600px;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+.container9 .seven{
+     position: absolute;
+    top: 1600px;
+    left: 230px;
+    color: white;
+    font-size: 25px;
+    /* font-family: "railway" , sans-serif; */
+    font-family:"Algerian" ;
+    font-style: normal;
+    line-height: 29px;   
+}
+.container9 .eight{
+    position: absolute;
+    top: 1700px;
+    left: 150px;
+    color: white;
+    font-size: 25px;
+    /* font-family: "railway" , sans-serif; */
+    font-family:"Algerian" ;
+    font-style: normal;
+    line-height: 29px;   
+}
+.container9 .five{
+    font-family: "railway" , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 1750px;
+    left: 150px;   
+}
+.container9 .image0202 img{
+    width: 500px;
+    height: 250px;
+    margin-top: 160px;
+    margin-left: 700px;
+    border-radius: 5px;
+}
+.container9 .one{
+    position: absolute;
+    top: 2050px;
+    left: 800px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Algerian';
+    font-style: normal;
+    line-height: 29px;   
+}
+.container9 .two{
+    font-family: "railway" , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 2100px;
+    left: 800px;  
+}
+.container9 .hifz{
+    font-family: "railway" , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 2150px;
+    left: 800px;  
+}
+.container9 .image-rrr img{
+    margin-left: -450px;
+    margin-top: 100px;
+    width: 600px;
+    height: 250px;
+    border-radius: 5px;
+}
+.container9 .six{
+     position: absolute;
+    top: 2400px;
+    left: 150px;
+    color: white;
+    font-size: 25px;
+    /* font-family: "railway" , sans-serif; */
+    font-family:"Algerian" ;
+    font-style: normal;
+    line-height: 29px;
+}
+.container9 .city{
+    font-family: "railway" , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 2455px;
+    left: 150px;
+}
+.container9 .this{
+    font-family: "railway" , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 2505px;
+    left: 150px;
+}
+.container9 .image-cr7 img{
+    margin-top: 70px;
+    margin-left: 780px;
+    border-radius: 5px;
+}
+.container9 .express{
+    position: absolute;
+    top: 2700px;
+    left: 550px;
+    color: white;
+    font-size: 25px;
+    /* font-family: "railway" , sans-serif; */
+    font-family:"Algerian" ;
+    font-style: normal;
+    line-height: 29px;
+}
+.container9 .animation{
+    font-family: "railway" , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 2765px;
+    left: 350px;
+}
+.container9 .gold{
+    font-family: "railway" , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 2845px;
+    left: 700px;
+}
+.container9 .upper{
+    font-family: "railway" , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 2895px;
+    left: 700px;
+}
+.container9 .down{
+    font-family: "railway" , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 2945px;
+    left: 700px;
+}
+.container9 .smart{
+    font-family: "railway" , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 3040px;
+    left: 700px;
+}
+.container9 .mint{
+    font-family: "railway" , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 3100px;
+    left: 700px;
+}
+.container9 .imagejpg img{
+    width: 550px;
+    margin-top: 210px;
+    margin-left: 130px;
+    border-radius: 5px;
+}
+.container9 .super{
+    position: absolute;
+    top: 3250px;
+    left: 160px;
+    color: white;
+    font-size: 25px;
+    /* font-family: "railway" , sans-serif; */
+    font-family:"Algerian" ;
+    font-style: normal;
+    line-height: 29px;
+}
+.card-design1221{
+    border: 2px solid white;
+    width: 100%;
+    height: 700px;
+}
+
+
+/* body {
+    Background color to match the dark theme
+    background-color: #121212;
+    color: #ffffff; White text color
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+} */
+
+.card-container {
+    display: flex;
+    gap: 20px; 
+    flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+    justify-content: center;
+    margin-top: 150px;
+    height: 900px;
+}
+
+.card21 .card{
+    height: 100px;
+}
+
+.card21 {
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.116); 
+    border-radius: 8px;
+    width: 350px; /* Fixed width for each card */
+    box-shadow: 0 4px 4px 3px rgba(128, 128, 128, 0.342);
+    overflow: hidden; /* Ensures the image respects the border-radius */
+}
+.card-container .card-title1{
+    font-family: 'Aprecu';
+    font-size: 20px;
+    position: absolute;
+    left: 150px;
+    top: 3210px;
+}
+.card-container .card-address1{
+    font-family: "railway" , sans-serif;
+    font-size: 14px;
+    position: absolute;
+    left: 145px;
+    top: 3640px;
+}
+.card-container .card-phone1{
+    font-family: "railway" , sans-serif;
+    font-size: 14px;
+    position: absolute;
+    left: 230px;
+    top: 3700px;
+}
+.card-container .card-title2{
+    font-family: 'Aprecu';
+    font-size: 20px;
+    position: absolute;
+    left: 520px;
+    top: 3210px;
+}
+.card-container .card-address2{
+    font-family: "railway" , sans-serif;
+    font-size: 14px;
+    position: absolute;
+    left: 600px;
+    top: 3650px;
+}
+.card-container .card-phone2{
+    font-family: "railway" , sans-serif;
+    font-size: 14px;
+    position: absolute;
+    left: 620px;
+    top: 3700px;
+}
+.card-container .card-title3{
+    font-family: 'Aprecu';
+    font-size: 20px;
+    position: absolute;
+    left: 893px;
+    top: 3210px;
+}
+.card-container .card-address3{
+    font-family: "railway" , sans-serif;
+    font-size: 14px;
+    position: absolute;
+    left: 950px;
+    top: 3650px;
+}
+.card-container .card-phone3{
+    font-family: "railway" , sans-serif;
+    font-size: 14px;
+    position: absolute;
+    left: 1010px;
+    top: 3700px;
+}
+.card-container .card-title4{
+    font-family: 'Aprecu';
+    font-size: 20px;
+    position: absolute;
+    left: 343px;
+    top: 3630px;
+}
+.card-container .card-address4{
+    font-family: "railway" , sans-serif;
+    font-size: 14px;
+    position: absolute;
+    left: 425px;
+    top: 4065px;
+}
+.card-container .card-phone4{
+    font-family: "railway" , sans-serif;
+    font-size: 14px;
+    position: absolute;
+    left: 440px;
+    top: 4120px;
+}
+.card-container .card-title5{
+    font-family: 'Aprecu';
+    font-size: 20px;
+    position: absolute;
+    left: 730px;
+    top: 3630px;
+}
+.card-container .card-address5{
+    font-family: "railway" , sans-serif;
+    font-size: 14px;
+    position: absolute;
+    left: 733px;
+    top: 4065px;
+}
+.card-container .card-phone5{
+    font-family: "railway" , sans-serif;
+    font-size: 14px;
+    position: absolute;
+    left: 815px;
+    top: 4120px;
+}
+
+.card-image-wrapper {
+    width: 100%;
+    padding-top: 56.25%;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+.card-image-wrapper img{
+    margin-left: 17px;
+    width: 90%;
+    height: 60%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.card-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.card-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+
+.card-address {
+    font-size: 0.9em;
+    color: #aaaaaa;
+    margin-bottom: 5px;
+}
+
+.card-phone {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.humtum .humtum1{
+    font-size: 30px;
+    font-family: 'Algerian';
+    position: absolute;
+    top: 3900px;
+    left: 27rem;
+}
+.humtum .dotted .humtum3{
+    /* border: 5px solid white; */
+    font-size: 30px;
+    font-family: "railway" , sans-serif;
+    position: absolute;
+    top: 4100px;
+    left: 45rem;
+}
+.humtum .dotted .humtum2{
+    /* border: 5px solid white; */
+    font-size: .885em;
+    font-family: "railway" ,sans-serif;
+    position: absolute;
+    top: 4080px;
+    left: 45rem;
+    letter-spacing: -0.25px;
+    font-weight: 200;
+}
+.image-area img{
+    margin-top: 300px;
+    width: 90%;
+    margin-left: -210px;
+    border-radius: 5px;
+}
+.humtum .dotted .aman{
+    font-size: 18px;
+    margin-top: 385px;
+    margin-left: -100px;
+    font-family: "railway" ,sans-serif;
+}
+.humtum .dotted .zain{
+    font-size: 18px;
+    margin-top: 408px;
+    margin-left: -100px;
+    font-family: "railway" ,sans-serif;
+}
+.container10{
+    margin-top: 700px;
+}
+ 
+
+
+
+
+
+/* ...................;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
+
+
+
+
+.container11{
+  width: 100%;
+  height: 100%;
+}
+
+.Box1 img{
+    /* margin-top: 200px; */
+    border: 1px solid gray;
+    width: 100%;
+    height: 100%;   
+    transition: all 1s ease-in-out;
+    /* margin-left: 50px; */
+    /* padding-top: 20px; */
+}
+.Box2 img{
+    /* position: absolute; */
+    /* top: 200px; */
+    border: 1px solid gray;
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease-in-out;
+    /* margin-left: 550px; */
+    /* padding-top: 20px; */
+}
+.Box-design{
+    margin-left: 125px;
+    width: 1100px;
+    height: 800px;
+    /* border: 2px solid white; */
+}
+
+
+.Box1{
+    height: 505px;
+    width: 550px;
+    position: absolute;
+    left: 85px;
+    top: 200px;
+    opacity: 1;
+    /* border: 2px solid white; */
+}
+.Box2{
+    height: 505px;
+    width: 550px;
+    position: absolute;
+    left: 740px;
+    top: 200px;
+    /* border: 2px solid white; */
+}
+.Box1 img:hover{
+    transform: scale(1.1);
+}
+.Box2 img:hover{
+    transform: scale(1.1);
+}
+.high{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    display: block;
+    font-family: 'Aprecu';
+    margin-top: 800px;
+    margin-left: 140px;
+}
+.java{
+    color: white;
+    margin-top: 880px;
+    margin-left: 195px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+.pipe{
+    font-family: 'Butler';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgb(128, 128, 128);
+    margin-bottom: 10px;
+    margin-top: 920px;
+    margin-left: -237px;
+}
+.won{
+    color: white;
+    margin-top: 1000px;
+    margin-left: 185px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+.win{
+    font-family: 'Butler';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgb(128, 128, 128);
+    margin-bottom: 10px;
+    margin-top: 1040px;
+    margin-left: -317px;
+}
+.spider{
+    color: white;
+    margin-top: 1120px;
+    margin-left: 225px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+.man{
+    font-family: 'Butler';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgb(128, 128, 128);
+    margin-bottom: 10px;
+    margin-top: 1160px;
+    margin-left: -277px;
+}
+.super1{
+    color: white;
+    margin-top: 1240px;
+    margin-left: 244px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+.man2{
+    font-family: 'Butler';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgb(128, 128, 128);
+    margin-bottom: 10px;
+    margin-top: 1280px;
+    margin-left: -297px;
+}
+.free{
+    color: white;
+    margin-top: 1360px;
+    margin-left: 244px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+.fire{
+    font-family: 'Butler';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgb(128, 128, 128);
+    margin-bottom: 10px;
+    margin-top: 1400px;
+    margin-left: -217px;
+}
+.container11 .container7{
+    margin-top: 750px;
+}
+    
+
+
+
+
+
+/* ---------------;;;;;;;;;;;;;;;;;;;;;;--------------------- */
+
+
+
+.vertical-line {
+    margin-top: 240px;
+    
+    width: .1px; 
+    height: 950px; 
+    background-color: rgba(139, 0, 0, 0.568); 
+
+
+    position: absolute; 
+    left: 73%;
+    transform: translateX(-50%);
+}
+  
+
+
+.container-fotter img{
+    margin-top: 230px;
+    margin-left: 37rem;
+    width: 180px;
+}
+.rip{
+    border: none; 
+    color: white; 
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 26rem;
+    width: 550px;
+    background-color: red;
+    height: 60px;
+    border-radius: 5px;
+}
+.pro{
+    margin-left: 14rem;
+    position: absolute;
+    top: 60px;
+}
+.box32 h3{
+    border: 2px solid red;
+    width: 200px;
+    height: 50px;
+    padding: 8px 30px;
+    font-size: 20px;
+    margin-top: 42rem;
+    margin-left: 130px;
+}
+.box23 h3{
+    border: 2px solid red;
+    width: 230px;
+    height: 50px;
+    padding: 8px 30px;
+    font-size: 20px;
+    margin-top: 42rem;
+    margin-left: 380px;
+}
+.container13 .container7{
+    margin-top: 900px;
+}
